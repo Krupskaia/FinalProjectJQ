@@ -1,0 +1,250 @@
+body {
+	background:		#DFE3E6;
+	font-size:		0.8em;
+	line-height:	1.6em;
+}
+main, header, footer {
+	width:			960px;
+}
+main {
+	background:		#FFFFFF url('../images/bg.gif') repeat-y;
+	margin:			20px auto 0 auto;
+}
+header {
+	height:			235px;
+	background:		url('../images/header.gif') no-repeat;
+}
+nav, section, aside {
+	float:			left;
+	min-height:		200px;
+}
+nav {
+	width:			230px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li a.navigation {
+	display:		block;
+	margin-bottom:	15px;
+	width:			120px;
+	text-decoration:none;
+}
+nav ul li a.navigation:hover {
+	background:		#EDEDED;
+	color:			#000000;
+}
+section {
+	width:			460px;
+	margin:			0 20px;
+}
+section .vprospect {
+	background:		url('../images/logo_vprospect.gif');
+}
+section .vconvert {
+	background:		url('../images/logo_vconvert.gif');
+}
+section .vretain {
+	background:		url('../images/logo_vretain.gif');
+}
+section .vprospect, section .vconvert, section .vretain {
+	padding-left:	70px;
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+}
+aside {
+	width:			220px;
+	padding-right:	10px;
+}
+section h2, aside h2, nav ul li a {
+	background:		url('../images/icon_checker.gif') no-repeat 7px;
+}
+footer {
+	height:			30px;
+	background:		url('../images/footer.gif') no-repeat;
+	clear:			both;
+}
+
+/* Slideshow container */
+
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.number {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .number:hover {
+  background-color: #717171;
+    color:white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Tabbed Menu */
+
+/*#mainContent {
+	height: 600px;
+	width: 645px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding: 140px 70px 0px 100px;
+}*/
+
+#mainContent img {
+	padding-right: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#productDescrip {
+/*	width: 620px;*/
+	height: 220px;
+	border: 2px solid #CC1C0D;
+	padding: 10px;
+}
+#productNav{
+	margin: 0;
+	padding: 3px 0px;
+	width: 100%;
+	list-style: none;
+}
+#productNav li{
+	display: inline;
+	background: #424445;
+	border: 1px solid #888;
+	border-bottom: 0;
+	margin-right:2px;
+	padding: 3px;
+	color: #FFF;
+}
+#productNav a {
+	color: #FFF;
+	text-decoration: none;
+}
+#productNav li a:hover{
+	color:black;
+}
+#productNav li.current {
+	background: #CC1C0D;
+	padding-bottom: 4px;
+}
+
+/* Accordion */
+
+/*#accordionContent {
+	padding: 140px 70px 30px 100px;
+}*/
+
+#accordionContent img {
+	padding-right: 10px;
+}
+/*#accordion {
+	width:630px;
+}*/
+#accordion li {
+	background-color: #717171;
+	font-weight:bold;
+	font-style:italic;
+	color:#f2f2f2;
+	margin-bottom:2px;
+	padding: 4px 8px;
+	list-style:none;
+	cursor:pointer;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+#accordion li ul {
+	padding:0px
+	margin:10px 0 0 0;
+}
+#accordion li li {
+	background:none;
+	color:white;
+	font-weight:normal;
+	height:150px;
+}
+#accordion li.alt {
+	color:#f2f2f2;
+    background-color: #717171
+		
+}
+#accordion li:hover {
+	color:#CC1C0D;	
+}
+#accordion li ul li:hover {
+	color:white;
+	cursor:default;	
+}
+
+#accordion img {
+	padding-right: 10px;
+}
+
+.plusminus {
+  float: right;
+}
